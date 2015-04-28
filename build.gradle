@@ -11,6 +11,7 @@ buildscript {
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
         classpath 'au.com.dius:pact-jvm-provider-gradle_2.11:2.1.7'
+        classpath 'org.codehaus.groovy:groovy-backports-compat23:2.4.3'
     }
 }
 
